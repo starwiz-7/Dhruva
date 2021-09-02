@@ -5,6 +5,7 @@ import Coming from '@components/ComingSoon/comingsoon'
 export default function Home() {
   return (
     <div className={styles.container}>
+      
       <Head>
         <title>DHRUVA - IIITK</title>
         <meta name="description" content="Dhruva IIITK Technical Fest" />

@@ -13,7 +13,9 @@ export default function Coming() {
                         <p className={styles.txt}>Redefining the way technical fest used to be.<br/>
                         Technical Fest you would have never attended before, exclusively by Beta Labs IIITK</p>
                     </div>
-                    <HButton name="Contact Us"></HButton>
+                    <div className={styles.btnDiv}>
+                        <HButton name="Contact Us"/>
+                    </div>
                 </div>
             </div>
             <div className={styles.footer}>
